@@ -1,4 +1,11 @@
-# Iterators
+# What is this?
+Here I'll be compiling a list of various generator functions. That is, manually created iterables that allow looping through some interesting values. I'll be using jupyter Notebooks and Google Colab to run these python files.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtxrii/generators/)
+
+More on generators...
+
+## Iterators
 Some objects in Python allow iteration. You've probably seen this pattern before:
 ```python
 for x in y:
@@ -23,7 +30,7 @@ for i in range(5):
 ```
 But how can a function create an iteration like that?
 
-# Generators
+## Generators
 Normal functions return something. This is done with the `return` keyword as we know.
 ```python
 def add(x, y):
